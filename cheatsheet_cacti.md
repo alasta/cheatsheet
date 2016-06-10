@@ -18,7 +18,8 @@ Un RRD peut contenir plusieurs RRA (correspondant aux différent cycle de conser
 * _ABSOLUTE_ : identique à COUNTER sauf que le PDP précédent est toujours de 0.
 * _GAUGE_ : le PDP est stocké brute, pas de calcul avec le PDP/échnatillonnage précédent.
    
-Exemple :  
+Exemple : 
+  
 | ------------- |:-------------:| -----:|
 | Values        | 300 | 600 | 900 | 1200 |
 | Step          | 300 seconds |||           |
