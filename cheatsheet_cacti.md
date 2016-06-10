@@ -19,14 +19,12 @@ Un RRD peut contenir plusieurs RRA (correspondant aux différent cycle de conser
 * _GAUGE_ : le PDP est stocké brute, pas de calcul avec le PDP/échnatillonnage précédent.
    
 Exemple : 
-  
-| ------------- |:-------------:| -----:|
-| Values        | 300 | 600 | 900 | 1200 |
-| Step          | 300 seconds |||           |
-| COUNTER DS    |   1 |  1  |   1 |    1 |
-| DERIVE DS     |   1 |  1  |   1 |   1  |
-| ABSOLUTE DS   |   1 |  2  |   3 |   4  |
-| GAUGE DS      | 300 | 600 | 900 | 1200 | 
+ Values       = 300, 600, 900, 1200
+ Step         = 300 seconds
+ COUNTER DS   =    1,  1,   1,    1
+ DERIVE DS    =    1,  1,   1,    1
+ ABSOLUTE DS  =    1,  2,   3,    4
+ GAUGE DS     = 300, 600, 900, 1200
   
 
 
