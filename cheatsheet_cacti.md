@@ -20,10 +20,18 @@ Un RRD peut contenir plusieurs RRA (correspondant aux différent cycle de conser
    
 Exemple :  
 | Values        | 300 | 600 | 900 | 1200 |
+| Step          | 300 seconds |||           |
 | COUNTER DS    |   1 |  1  |   1 |    1 |
 | DERIVE DS     |   1 |  1  |   1 |   1  |
 | ABSOLUTE DS   |   1 |  2  |   3 |   4  |
-| GAUGE DS      | 300 | 600 | 900 | 1200 |
+| GAUGE DS      | 300 | 600 | 900 | 1200 | 
+  
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
   
 ## Graph avec un script maison :
 
