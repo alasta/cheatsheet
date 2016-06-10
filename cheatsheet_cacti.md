@@ -35,7 +35,9 @@ Exemple :
 
 ### Le script  
 Le script doit renvoyer key:value séparés par des espaces s'il y en a plusieurs :  
+```shell
 key1:value1 key2:value2 key3:value3 ...  
+```
   
 Peut importe le langage du moment que le serveur connait l'interpreteur.  
   
