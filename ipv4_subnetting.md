@@ -64,7 +64,7 @@
 |	RFC1918	|	192.168.0.0 - 192.168.255.255	|	192.168/16	|
   
  
- ## Address Class
+## Address Class
    
 |	Class	|	Start bits	|	begin @	|	end @	|	bitmask	|
 |	---	|	---	|	---	|	---	|	---	|
@@ -73,6 +73,10 @@
 |	C	|	110	|	192.0.0.0	|	223.255.255.255	|	/24	|
 |	D (multicast)	|	1110	|	224.0.0.0	|	239.255.255.255	|	undef	|
 |	E (reserved)	|	1111	|	240.0.0.0	|	255.255.255.255	|	undef	|   
- 
+  
+## Notes
+subnets = 2^(bitmask - bitmask class)  
+hosts = 2^(32 - bitmask) -2
+
 
 
