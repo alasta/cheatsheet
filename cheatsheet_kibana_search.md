@@ -1,8 +1,9 @@
 # Kibana Search
 
 ## Boolean Operators 
-
-And : AND  &&  +  
+  
+``` 
+And : AND &&  +  
 Or  : OR  ||  -  
 Not : NOT  !  
-
+```
