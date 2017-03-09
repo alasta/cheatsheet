@@ -41,6 +41,11 @@ F9  : Open new window
 F11 : Close current window  
 F12 : Close all window
 ```
-lk
+### Various commands
+```
+C^x r : Reload tmux.conf
+C^x P : Save history to file 
+C^x ( : Move to previous session
+C^x ) : Move to next session
 
-
+```
