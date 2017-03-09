@@ -29,6 +29,7 @@ Shift arrow Left/Right
 Control arrow
 
 ### Fx Keys
+```
 F1  : Select window 1  
 F2  : Select window 2  
 F3  : Select window 3  
