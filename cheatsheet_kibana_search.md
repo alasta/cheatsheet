@@ -40,5 +40,21 @@ Reserved                                + - = && || > < ! ( ) { } [ ] ^ " ~ * ? 
 Break character                         \
 ```
 
+## Search
 
+```
+Keyword                                 keyword
+Pattern                                 *ywo*      ?eywor?
+Match field                             field:term
+Match field**                           field.raw:TeRm
+Field contains term1 or term2           field:(term1 OR term2)
+Field exists                            _exists_:field
+Field missing (v5)                      !(_exists_:field)
+Field missing (v2)                      _missing_:field
+Phrase                                  "/etc/elasticsearch/"
+Regular Expressions                     /h?[tx]ml?/
+JSON                                    { "match": { "field": "term" } }
+```
+_**Note :** term : complete word in lowercase_
+_** : Not analyzed fields are case sensitive_
 
