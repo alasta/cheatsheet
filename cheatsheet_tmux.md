@@ -40,7 +40,7 @@ F7  : Split horizontal window
 F9  : Open new window  
 F11 : Close current window  
 F12 : Close all window
-
-
+```
+lk
 
 
