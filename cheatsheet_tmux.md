@@ -28,6 +28,12 @@ tmux kill-session -t mysession
 tmux kill-session -a
 ```
 
+### List session
+```
+tmux ls
+```
+
+
 ### Crontrol key
 
 Control x : C^x 
@@ -53,8 +59,11 @@ F12 : Close all window
 ```
 ### Various commands
 ```
+C^x d : Dettach current session
 C^x r : Reload tmux.conf
+C^x s : Menu to switch session
 C^x P : Save history to file 
+C^x t : Display clock
 C^x ( : Move to previous session
 C^x ) : Move to next session
 C^x ? : Display shortcuts
