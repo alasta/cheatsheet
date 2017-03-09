@@ -13,9 +13,19 @@ Attach to last session
 tmux attach
 ```
   
-Attach to Session Name  
+### Attach to Session Name  
 ```
 tmux a -t SessionName
+```
+
+### Kill Session Name
+```
+tmux kill-session -t mysession
+```
+
+### Kill all sesion
+```
+tmux kill-session -a
 ```
 
 ### Crontrol key
@@ -47,5 +57,5 @@ C^x r : Reload tmux.conf
 C^x P : Save history to file 
 C^x ( : Move to previous session
 C^x ) : Move to next session
-
+C^x ? : Display shortcuts
 ```
