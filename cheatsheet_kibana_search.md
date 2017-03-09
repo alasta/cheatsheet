@@ -31,3 +31,14 @@ Larger or equal to 10                   >=10
 Smaller or equal to 10                  <=10
 ```
 _\*  timestamp : warning to timezone_
+
+
+## Reserved characters
+
+```
+Reserved                                + - = && || > < ! ( ) { } [ ] ^ " ~ * ? : \ /
+Break character                         \
+```
+
+
+
