@@ -29,12 +29,17 @@ Shift arrow Left/Right
 Control arrow
 
 ### Fx Keys
-F1 : Select window 1
-F2 : Select window 2
-F3 : Select window 3
-F4 : Select window 4
-F5 : Rename window name
-F6 : Split vertical window
-F7 : Split horizontal window 
+F1  : Select window 1  
+F2  : Select window 2  
+F3  : Select window 3  
+F4  : Select window 4  
+F5  : Rename window name  
+F6  : Split vertical window  
+F7  : Split horizontal window   
+F9  : Open new window  
+F11 : Close current window  
+F12 : Close all window
+
+
 
 
