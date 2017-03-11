@@ -55,6 +55,7 @@ Phrase                                  "/etc/elasticsearch/"
 Regular Expressions                     /h?[tx]ml?/
 JSON                                    { "match": { "field": "term" } }
 ```
-_**Note :** term : complete word in lowercase_
-_** : Not analyzed fields are case sensitive_
+_**Note :**  
+term : complete word in lowercase_  
+_** : Not analyzed fields are case sensitive_  
 
