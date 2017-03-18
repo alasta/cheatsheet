@@ -48,6 +48,7 @@ Ex : PRI of User.Info = (1 x 8) + 6 = 14
 
 ## Found Facility and Severity
 PRI = 107  
+  
 107/8 = 13.375  
 The number before comma is the Facility => 13
 
