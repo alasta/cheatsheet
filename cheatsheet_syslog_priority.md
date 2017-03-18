@@ -1,5 +1,6 @@
-## Understand Syslog PRIority 
+# Understand Syslog PRIority 
 
+## Facility
 ```shell
 Numerical Code   Facility          
  0               kernel messages  
@@ -27,7 +28,8 @@ Numerical Code   Facility
 22               local use 6  (local6)  
 23               local use 7  (local7) 
 ```
-          
+  
+## Severity
 ```shell
 Numerical code     Severity
 0                  Emergency: system is unusable
@@ -39,6 +41,15 @@ Numerical code     Severity
 6                  Informational: informational messages
 7                  Debug: debug-level messages
 ```  
-  
+ 
+## PRIority 
 PRIORITY (PRI) = (Facility x 8) + Severity  
 Ex : PRI of User.Info = (1 x 8) + 6 = 14
+
+## Found Facility and Severity
+PRI = 107
+107/8 = 13.375
+The number before comma is the Facility => 13
+
+107-(13x8)=3
+The Severity is 3
