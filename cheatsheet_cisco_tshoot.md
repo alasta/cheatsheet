@@ -122,7 +122,25 @@ router bgp <AS>
    
    
    ### Debug commandes
-   ...
+```   
+show bgp summary
+  router-id
+  AS
+```  
+  
+  ### table BGP
+```  
+    * : l’étoile signifie que la route est valide
+    > : le chevron signifie que c’est la meilleure route disponible pour cette destination (
+    Network : le réseau de destination
+    Next Hop : prochain saut pour joindre la destination
+    Metric : un des attributs constituant la métrique totale
+    LocPrf : un des attributs constituant la métrique totale
+    Weight : un des attributs constituant la métrique totale
+    Path : les AS par lesquels il faudra passer (ici il n’y en a que 1 : le 200)
+```
+
+
    
    ## OSPF
    
@@ -165,7 +183,33 @@ show ip ospf neighbor
     Affiche les voisins  
    
  show ip ospf neighbor detail    
+ 
+ show ip ospf interface
+    Process ID OSPF
+    Etat DR/BDR
+    Timers
+    
    
  clear ip ospf process  
    reinitialise le process ospf  
  ```  
+### Type de routes
+
+```
+O : route OSPF standard
+IA : Route venant d’une autre Area
+N1 : Route de type 1 qui a été redistribuée dans une NSSA
+N2 : Route de type 2 qui a été redistribuée dans une NSSA
+E1 : Route externe qui a été redistribuée, de type 1
+E2 : Route externe qui a été redistribuée, de type 2
+```
+
+### Etat avec le voisin
+```
+Down : Nous n’avons pas encore reçus de Hello du voisin, mais nous essayons de le joindre
+Init : On reçoit un Hello du voisin, mais notre routeur n’est pas listé dans le champ Neighbors
+2-Way : La relation est créée (notre routeur est listé dans le champ Neighbors). Election DR / BDR si nécessaire
+Exchange : Echange de DBD – Data Base Description
+Loading : Echange de LSU – Link State Update
+Full : Bases de données synchronisées
+```
