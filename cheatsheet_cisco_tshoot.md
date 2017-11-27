@@ -127,6 +127,7 @@ show bgp summary
   router-id
   AS
 ```  
+http://meetings.ripe.net/ripe-44/presentations/ripe44-eof-bgp.pdf  
   
   ### table BGP
 ```  
