@@ -151,6 +151,9 @@ router ospf 100
  ! Declaration du router-id  
  router-id 1.1.1.1  
  
+ ! auth md5
+ area 0 authentication message-digest
+ 
  ! declaration des reseaux qui participent a OSPF
  network 10.0.3.0 0.0.0.255 area 0  
  network 10.0.0.0 0.0.0.255 area 0  
