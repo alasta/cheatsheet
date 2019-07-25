@@ -76,6 +76,8 @@ C^x $         : Display or rename session name
 ```
 C^x c : Open new window
 C^x , : Rename current window name
+C^x n : Go to next window
+C^x p : Go to previous window
 C^x w : List/switch windows
 C^x f : Find window with pattern (in name or content)
 
@@ -92,6 +94,9 @@ C^x " : Vertical split
 C^x o : Switch panes
 C^x q : Show pane numbers
 C^x space : Toggle panes
+C^x { : Move to left pane
+C^x } : Move to right pane
+
 C^x x : Ask to kill current pane
 ```
 
@@ -121,4 +126,9 @@ C^x : resize-pane -L 20 (Resizes the current pane left by 20 cells)
 C^x : resize-pane -R 20 (Resizes the current pane right by 20 cells)
 C^x : resize-pane -t 2 20 (Resizes the pane with the id of 2 down by 20 cells)
 C^x : resize-pane -t -L 20 (Resizes the pane with the id of 2 left by 20 cells)
+```
+  
+### Panes Sync
+```
+C^x :setw synchronize-panes : Enable/disable sync command to all panes
 ```
