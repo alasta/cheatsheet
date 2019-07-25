@@ -64,6 +64,39 @@ F9  : Open new window
 F11 : Close current window  
 F12 : Close all window
 ```
+  
+### Sessions  
+```
+C^x :new<CR>  : New session
+C^x s         : List sessions
+C^x $         : Display or rename session name
+```
+  
+### Windows (tabs)
+```
+C^x c : Open new window
+C^x , : Rename current window name
+C^x w : List/switch windows
+C^x f : Find window with pattern (in name or content)
+
+C^x & : Ask to kill current window
+
+C^x :joinp -s :3  : Move window 3 into a new pane in the current window
+C^x :joinp -t :1  : Move the current pane into a new pane in window 1
+```
+  
+### Panes (splits)
+```
+C^x % : Horizontal split
+C^x " : Vertical split
+C^x o : Switch panes
+C^x q : Show pane numbers
+C^x space : Toggle panes
+C^x x : Ask to kill current pane
+```
+
+
+
 ### Various commands
 ```
 C^x d : Dettach current session
