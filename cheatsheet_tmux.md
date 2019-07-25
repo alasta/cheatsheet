@@ -84,6 +84,8 @@ C^x l : Go to last window
 C^x w : List/switch windows
 C^x f : Find window with pattern (in name or content)
 C^x 1 : Switch to window 1 (or other number)
+C^x ' : Select window by number
+C^x . : Change window number
 
 C^x & : Ask to kill current window
 
@@ -103,6 +105,7 @@ C^x { : Move to left pane
 C^x } : Move to right pane
 C^x C^o : Rotate pane up
 C^x Alt^o : Rotate pane down
+C^x ! : Concert current pane to window
 
 C^x x : Ask to kill current pane
 ```
