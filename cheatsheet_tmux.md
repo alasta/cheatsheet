@@ -128,7 +128,15 @@ C^x : resize-pane -t 2 20 (Resizes the pane with the id of 2 down by 20 cells)
 C^x : resize-pane -t -L 20 (Resizes the pane with the id of 2 left by 20 cells)
 ```
   
-### Panes Sync
+### Panes sync
 ```
 C^x :setw synchronize-panes : Enable/disable sync command to all panes
+```
+  
+### Windows switch
+```
+C^x :swap-window -s 8 -t 5  : Switch the position of windows 8 and 5
+C^x :swap-window -t 5       : Switch current window to window 5
+C^x :swap-window -t +1      : move current window to right (-1 to left)
+C^x :move-window -t 2       : Move current window to window 2 and rename window number
 ```
