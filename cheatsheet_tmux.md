@@ -2,6 +2,11 @@
 
 .tmux.conf : https://github.com/alasta/config/blob/master/.tmux.conf
 
+### Start basic sesison
+```
+tmux 
+```
+
 ### Start New Session
 ```
 tmux new -s SessionName
@@ -16,6 +21,8 @@ tmux attach
 ### Attach to Session Name  
 ```
 tmux a -t SessionName
+OR
+tmux attach -t SessionName
 ```
 
 ### Kill Session Name
@@ -23,7 +30,7 @@ tmux a -t SessionName
 tmux kill-session -t mysession
 ```
 
-### Kill all sesion
+### Kill all sessions
 ```
 tmux kill-session -a
 ```
