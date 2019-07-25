@@ -13,9 +13,8 @@ tmux new -s SessionName
 ```
 
 ### Attach Session
-Attach to last session
 ```
-tmux attach
+tmux attach : Attach to last session
 ```
   
 ### Attach to Session Name  
