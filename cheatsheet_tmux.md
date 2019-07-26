@@ -105,7 +105,7 @@ C^x { : Move to left pane
 C^x } : Move to right pane
 C^x C^o : Rotate pane up
 C^x Alt^o : Rotate pane down
-C^x ! : Concert current pane to window
+C^x ! : Convert current pane to window
 
 C^x x : Ask to kill current pane
 ```
