@@ -39,6 +39,11 @@ tmux kill-session -a
 tmux ls
 ```
 
+### List current mapping
+```
+tmux list-keys
+```
+
 
 ### Crontrol key
 
