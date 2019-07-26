@@ -52,14 +52,16 @@ Control arrow
 
 ### Fx Keys
 ```
-F1  : Select window 1  
-F2  : Select window 2  
-F3  : Select window 3  
-F4  : Select window 4  
+F1  : Move current window to left  
+F2  : Move current window to right  
+F3  : Choose window  
+F4  : Choose session  
 F5  : Rename window name  
 F6  : Split vertical window  
 F7  : Split horizontal window   
+F8  : Save history to file
 F9  : Open new window  
+F10 : Enable/disable sync command to all panes
 F11 : Close current window  
 F12 : Close all window
 ```
@@ -150,6 +152,6 @@ C^x :setw synchronize-panes : Enable/disable sync command to all panes
 ```
 C^x :swap-window -s 8 -t 5  : Switch the position of windows 8 and 5
 C^x :swap-window -t 5       : Switch current window to window 5
-C^x :swap-window -t +1      : move current window to right (-1 to left)
+C^x :swap-window -t +1      : Move current window to right (-1 to left)
 C^x :move-window -t 2       : Move current window to window 2 and rename window number
 ```
