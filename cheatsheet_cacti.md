@@ -43,7 +43,7 @@ Peut importe le langage du moment que le serveur connait l'interpreteur.
   
 ### intégration
   
-* Déclarer le script dans Data Input Methods
+* Déclarer le script dans Data Input Methods (OID SNMP passer à la suite)
 * Déclarer la source de données dans Data Template
 * Générer les sources à partir d'un host dans Data Sources
 * Créer le Graph Template
